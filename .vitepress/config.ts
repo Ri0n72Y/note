@@ -26,7 +26,7 @@ export default defineConfig({
       "/nature/": {base: "/nature/", items: sidebarNature()},
     },
 
-    socialLinks: [{icon: "github", link: "https://github.com/vuejs/vitepress"}],
+    socialLinks: [{icon: "github", link: "https://github.com/digso/note"}],
   },
 })
 
