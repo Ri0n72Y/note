@@ -13,7 +13,7 @@ export default defineConfig({
       {text: "编程", link: "/code/code.md"},
       {text: "市场", link: "/market/market.md"},
       {text: "机械", link: "/mech/mech.md"},
-      {text: "数学", link: "/math/math.md"},
+      {text: "工程数学", link: "/math/math.md"},
       {text: "基础科学", link: "/nature/nature.md"},
     ],
 
