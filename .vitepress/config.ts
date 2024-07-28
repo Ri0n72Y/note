@@ -2,6 +2,7 @@ import {defineConfig} from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "./",
   title: "数社知识工程",
   description: "技能互助平台",
   themeConfig: {
