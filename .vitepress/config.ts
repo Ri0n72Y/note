@@ -2,9 +2,10 @@ import {defineConfig} from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "./",
+  base: "/note",
   title: "数社知识工程",
   description: "技能互助平台",
+  lang: "zh-CN",
   themeConfig: {
     nav: [
       {text: "首页", link: "/"},
