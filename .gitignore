@@ -6,6 +6,10 @@ pnpm-lock.yaml
 yarn.lock
 bun.lockb
 
+# VitePress工作文件夹和输出文件夹。
+.vitepress/cache
+.vitepress/dist
+
 # 平台特殊文件和编辑器配置文件。
 .DS_Store
 .atom/
