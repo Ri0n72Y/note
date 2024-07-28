@@ -1,0 +1,20 @@
+div.title a.title {
+  font-weight: 900;
+}
+div.vp-doc p {
+  text-indent: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+div.vp-doc h1 {
+  font-weight: 900;
+}
+div.vp-doc h2 {
+  font-weight: 800;
+  margin-top: 32px;
+  border-top: none;
+}
+
+div.vp-doc div.custom-block p {
+  text-indent: 0;
+}

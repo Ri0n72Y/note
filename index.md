@@ -20,7 +20,7 @@ hero:
       text: 机械设计
       link: /mech/mech
     - theme: alt
-      text: 数学
+      text: 工程数学
       link: /math/math
     - theme: alt
       text: 基础科学
