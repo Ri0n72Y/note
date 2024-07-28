@@ -62,7 +62,11 @@ export default defineConfig({
 
 /** 初衷、声明和基本使用说明。 */
 function sidebarAbout(): DefaultTheme.SidebarItem[] {
-  return [{text: "平台建设初衷", link: "about.md"}]
+  return [
+    {text: "平台建设初衷", link: "about.md"},
+    {text: "基本使用说明", link: "use.md"},
+    {text: "如何参与贡献", link: "contribute.md"},
+  ]
 }
 
 /** 编程基础及跨平台软件开发。 */
