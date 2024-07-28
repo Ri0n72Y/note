@@ -1,7 +1,19 @@
 import {DefaultTheme, defineConfig} from "vitepress"
+import {chineseSearchOptimize, pagefindPlugin} from "vitepress-plugin-pagefind"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    plugins: [
+      pagefindPlugin({
+        btnPlaceholder: "全局搜索",
+        placeholder: "全局搜索关键词",
+        emptyText: "找不到相关内容",
+        heading: "共: {{searchResult}} 条结果",
+        customSearchQuery: chineseSearchOptimize,
+      }),
+    ],
+  },
   base: "/note",
   title: "数社知识工程",
   description: "技能互助平台",
