@@ -1,0 +1,19 @@
+# Node第三方库(dependencies)和锁定文件(lockfile)。
+# 忽略锁定文件是为了防止使用不同镜像时的合并冲突。
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+
+# 平台特殊文件和编辑器配置文件。
+.DS_Store
+.atom/
+.idea/
+.fleet/
+.vs/
+*.iml
+*.ipr
+*.iws
+*.sln
+*.swp
