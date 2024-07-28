@@ -7,6 +7,23 @@ export default defineConfig({
   description: "技能互助平台",
   lang: "zh-CN",
   themeConfig: {
+    // 页面元素中文。
+    outline: {label: "页面大纲", level: [2, 3]},
+    docFooter: {prev: "前页", next: "后页"},
+    editLink: {
+      text: "在 GitHub 上编辑此页面",
+      pattern: "https://github.com/aprosail/notes/edit/dev/:path",
+    },
+    lastUpdated: {
+      text: "最近更新时间",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "short",
+        forceLocale: true,
+      },
+    },
+
+    // 顶部导航栏。
     nav: [
       {text: "首页", link: "/"},
       {text: "关于", link: "/about/about.md", activeMatch: "/about/"},
@@ -17,6 +34,7 @@ export default defineConfig({
       {text: "基础科学", link: "/nature/nature.md"},
     ],
 
+    // 侧边目录，配置分布在下面各函数中。
     sidebar: {
       "/about/": {base: "/about/", items: sidebarAbout()},
       "/code/": {base: "/code/", items: sidebarCode()},
